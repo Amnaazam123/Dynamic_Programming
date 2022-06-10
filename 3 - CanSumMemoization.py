@@ -16,7 +16,6 @@ def canSum(targetSum,numbers):
         if(canSum(targetSum-num,numbers) == True):
             return True
             
-
 print(canSum(7,[4,2,15,1]))
 
 
