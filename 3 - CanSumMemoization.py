@@ -21,7 +21,7 @@ print(canSum(7,[4,2,15,1]))
 
 
 #using memoization
-#time complexity(m^n)
+#time complexity(m*n)
 def canSum(targetSum,numbers,memo={}):
     if(targetSum == 0):
         return True 
