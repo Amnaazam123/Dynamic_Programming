@@ -29,7 +29,7 @@ print(fib(30))
 
 # Memoization
 # Time complexity(O(n))
-# =============================================================================
+# ======================================================================================================
 # 
 # How it is working?
 # To understand this code:
@@ -37,9 +37,7 @@ print(fib(30))
 # - After that from leaf nodes, start to return values and store the results in memo dictionary as well.
 # - check for condition if n in memo retun memo[n] and update your dictionary.
 # - memo is nothing but dictionary which will store "n" as key and fibValue[n] as value. 
-# 
-# 
-# =============================================================================
+# =======================================================================================================
 
 def fib(n,memo={}):
     if n in memo:
