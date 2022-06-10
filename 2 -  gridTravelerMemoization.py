@@ -24,6 +24,7 @@ def gridTraveler(m,n):
 
 
 #memoization to reuse repetitive steps
+#time complexity(m*n)
 def gridTraveler(m,n,memo={}):
     key = str(m) + "," + str(n)
     if key in memo:
