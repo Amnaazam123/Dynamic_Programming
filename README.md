@@ -3,4 +3,6 @@ This repository includes major Dynamic Programming problems implementation in PY
 
 Dynamic Programming is done in two parts:
 - Memoization
+
+![image](https://user-images.githubusercontent.com/71166016/173145647-ce6e81c5-d469-41a8-841a-7838b44e2554.png)
 - Tabulation
